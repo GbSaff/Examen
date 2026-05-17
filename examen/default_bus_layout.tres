@@ -1,0 +1,28 @@
+[gd_resource type="AudioBusLayout" format=3 uid="uid://cwklwngi0s2gu"]
+
+[resource]
+bus/0/bypass_fx = true
+bus/1/name = &"FootstepPlayer"
+bus/1/solo = false
+bus/1/mute = false
+bus/1/bypass_fx = true
+bus/1/volume_db = 0.0
+bus/1/send = &""
+bus/2/name = &"JumpSoundPlayer"
+bus/2/solo = false
+bus/2/mute = false
+bus/2/bypass_fx = true
+bus/2/volume_db = 0.0
+bus/2/send = &""
+bus/3/name = &"Master Copy Copy"
+bus/3/solo = false
+bus/3/mute = false
+bus/3/bypass_fx = true
+bus/3/volume_db = 0.0
+bus/3/send = &""
+bus/4/name = &"Background"
+bus/4/solo = false
+bus/4/mute = false
+bus/4/bypass_fx = true
+bus/4/volume_db = 0.0
+bus/4/send = &""

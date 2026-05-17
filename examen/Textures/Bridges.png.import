@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://caooxlvi210d6"
-path.s3tc="res://.godot/imported/Bridges.png-f7e2b8000a5e1b74066abb960c2ce044.s3tc.ctex"
+path.s3tc="res://.godot/imported/Bridges.png-a8f859cb6a8995c63849d66c8c925194.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://textures/Bridges.png"
-dest_files=["res://.godot/imported/Bridges.png-f7e2b8000a5e1b74066abb960c2ce044.s3tc.ctex"]
+source_file="res://Textures/Bridges.png"
+dest_files=["res://.godot/imported/Bridges.png-a8f859cb6a8995c63849d66c8c925194.s3tc.ctex"]
 
 [params]
 

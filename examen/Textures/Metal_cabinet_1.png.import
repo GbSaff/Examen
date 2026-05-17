@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bqmoopciri85d"
-path.s3tc="res://.godot/imported/Metal_cabinet_1.png-9bda6994d29d0d3ca7f092fdfc782092.s3tc.ctex"
+path.s3tc="res://.godot/imported/Metal_cabinet_1.png-9276b720064036cfb1bbf0ac85680438.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://textures/Metal_cabinet_1.png"
-dest_files=["res://.godot/imported/Metal_cabinet_1.png-9bda6994d29d0d3ca7f092fdfc782092.s3tc.ctex"]
+source_file="res://Textures/Metal_cabinet_1.png"
+dest_files=["res://.godot/imported/Metal_cabinet_1.png-9276b720064036cfb1bbf0ac85680438.s3tc.ctex"]
 
 [params]
 

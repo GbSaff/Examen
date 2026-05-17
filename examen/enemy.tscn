@@ -1,0 +1,20 @@
+[gd_scene format=3 uid="uid://boib1pq5a6e8u"]
+
+[sub_resource type="CapsuleMesh" id="CapsuleMesh_7xaro"]
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_7k104"]
+
+[node name="Enemy" type="CharacterBody3D" unique_id=300166411 groups=["Enemies"]]
+
+[node name="Model" type="MeshInstance3D" parent="." unique_id=23952197]
+mesh = SubResource("CapsuleMesh_7xaro")
+
+[node name="Hitbox" type="CollisionShape3D" parent="." unique_id=1997636890]
+shape = SubResource("CapsuleShape3D_7k104")
+
+[node name="ShootTimer" type="Timer" parent="." unique_id=1319238547]
+wait_time = 1.5
+
+[node name="NavAgent" type="NavigationAgent3D" parent="." unique_id=1726091857]
+
+[node name="ShootSound" type="AudioStreamPlayer3D" parent="." unique_id=175899359]

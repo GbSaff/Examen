@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://chq755at1qhxg"
+path="res://.godot/imported/The FACTORY WALK ( Dark Ambient Music ) creepy Horror Music.mp3-47033a0f5222578eae8ee5e355398f89.mp3str"
+
+[deps]
+
+source_file="res://Sounds/The FACTORY WALK ( Dark Ambient Music ) creepy Horror Music.mp3"
+dest_files=["res://.godot/imported/The FACTORY WALK ( Dark Ambient Music ) creepy Horror Music.mp3-47033a0f5222578eae8ee5e355398f89.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4
