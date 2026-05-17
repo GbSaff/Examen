@@ -13,7 +13,7 @@ extends CharacterBody3D
 @export var tooCloseDistance : float = 5.0
 @export var strafeSpeed : float = 3.0
 @export var strafeChangeInterval : float = 1.5
-@export var searchDuration : float = 8.0
+@export var searchDuration : float = 8.5
 
 @onready var navAgent : NavigationAgent3D = $NavAgent
 @onready var shootTimer : Timer = $ShootTimer
