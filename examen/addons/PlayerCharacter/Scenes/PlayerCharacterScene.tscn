@@ -1193,7 +1193,7 @@ font_size = 30
 outline_size = 1
 outline_color = Color(0, 0, 0, 1)
 
-[node name="PlayerCharacter" type="CharacterBody3D" unique_id=374235711 groups=["PlayerCharacter"]]
+[node name="PlayerCharacter" type="CharacterBody3D" unique_id=374235711 groups=["Player", "PlayerCharacter"]]
 collision_layer = 2
 collision_mask = 97
 floor_block_on_wall = false
@@ -1335,7 +1335,7 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.78936e-08, 0.154984, 0.541
 transform = Transform3D(1, 0, -4.54747e-13, 0, 1, 0, 0, 0, 1, -1.19209e-07, 0.065257, 0.568656)
 
 [node name="AssaultRifle" type="Node3D" parent="CameraHolder/CameraRecoilHolder/Camera/WeaponManager/WeaponContainer" unique_id=477126541 node_paths=PackedStringArray("model", "attackPoint", "muzzleFlashSpawner")]
-transform = Transform3D(-0.141413, 0.16853, 5.5774e-07, 0.16853, 0.141413, 0, -3.58508e-07, 4.27254e-07, -0.22, 0.194, -0.65, -0.144)
+transform = Transform3D(-0.14141321, 0.16852982, 5.5773995e-07, 0.16852982, 0.14141321, 0, -3.585082e-07, 4.2725372e-07, -0.22, 0.194, -0.65, -0.144)
 script = ExtResource("24_tyw5b")
 model = NodePath(".")
 weaponId = 2

@@ -3,12 +3,13 @@
 importer="scene"
 importer_version=1
 type="PackedScene"
-uid="uid://cty8q6xgo78uu"
-valid=false
+uid="uid://cboqetkk8cvvo"
+path="res://.godot/imported/ps1__robot.glb-af24bbad2a5c4c163067e1232b4cc165.scn"
 
 [deps]
 
-source_file="res://scene.gltf"
+source_file="res://Models_new/ps1__robot.glb"
+dest_files=["res://.godot/imported/ps1__robot.glb-af24bbad2a5c4c163067e1232b4cc165.scn"]
 
 [params]
 
@@ -36,6 +37,18 @@ import_script/path=""
 materials/extract=0
 materials/extract_format=0
 materials/extract_path=""
-_subresources={}
+_subresources={
+"meshes": {
+"Sketchfab_Scene_Cube_003_Material_0": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 20.0,
+"save_to_file/enabled": true,
+"save_to_file/fallback_path": "res://Models_new/Sketchfab_Scene_Cube_003_Material_0.res",
+"save_to_file/path": "uid://b0gs0yc3rddu8"
+}
+}
+}
 gltf/naming_version=2
 gltf/embedded_image_handling=1

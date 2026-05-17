@@ -1,0 +1,32 @@
+[gd_scene format=3 uid="uid://cw2c3a7asdxe7"]
+
+[ext_resource type="Script" uid="uid://03w46xndsvpi" path="res://HealthBarScript.gd" id="1_m7ell"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_7igj3"]
+bg_color = Color(0, 0.7714117, 0.32278973, 1)
+
+[node name="HealthBar" type="CanvasLayer" unique_id=719089310]
+script = ExtResource("1_m7ell")
+
+[node name="Container" type="VBoxContainer" parent="." unique_id=1839130349]
+anchors_preset = 3
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -40.0
+offset_top = -54.0
+grow_horizontal = 0
+grow_vertical = 0
+pivot_offset = Vector2(-200, -80)
+
+[node name="HealthLabel" type="Label" parent="Container" unique_id=1761693750]
+layout_mode = 2
+text = "100 / 100"
+horizontal_alignment = 2
+
+[node name="HealthProgress" type="ProgressBar" parent="Container" unique_id=921514236]
+custom_minimum_size = Vector2(180, 0)
+layout_mode = 2
+theme_override_styles/fill = SubResource("StyleBoxFlat_7igj3")
+value = 100.0

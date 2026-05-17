@@ -150,14 +150,30 @@ func takeDamage(dmg : float):
 		die()
 
 func die():
-	get_tree().reload_current_scene()
-		
-		
-		
-		
-		
-		
-		
-		
-		
+	# stop player input
+	set_process(false)
+	set_physics_process(false)
 	
+	# stop state machine
+	stateMachine.set_process(false)
+	stateMachine.set_physics_process(false)
+	
+	# stop weapon manager
+	var weaponManager = get_tree().get_first_node_in_group("WeaponManager")
+	if weaponManager:
+		weaponManager.set_process(false)
+		weaponManager.set_physics_process(false)
+	
+	# free the mouse
+	Input.set_mouse_mode(Input.MOUSE_MODE_VISIBLE)
+	
+	# show game over screen
+	var gameOver = get_tree().get_first_node_in_group("GameOverScreen")
+	if gameOver:
+		var waveManager = get_tree().get_first_node_in_group("WaveManager")
+		var wave = 0
+		if waveManager:
+			wave = waveManager.getCurrentWave()
+		gameOver.showGameOver(wave)
+	else:
+		get_tree().reload_current_scene()

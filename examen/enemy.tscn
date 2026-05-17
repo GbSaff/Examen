@@ -1,13 +1,18 @@
 [gd_scene format=3 uid="uid://boib1pq5a6e8u"]
 
-[sub_resource type="CapsuleMesh" id="CapsuleMesh_7xaro"]
+[ext_resource type="Script" uid="uid://d383xtelp4yve" path="res://EnemyScript.gd" id="1_7k104"]
+[ext_resource type="AudioStream" uid="uid://di6ivqfdsdi8y" path="res://Sounds/u_62htdrvg4y-gun-shot-359196.mp3" id="2_4gyqm"]
+[ext_resource type="PackedScene" uid="uid://cboqetkk8cvvo" path="res://Models_new/ps1__robot.glb" id="3_qi2p4"]
 
 [sub_resource type="CapsuleShape3D" id="CapsuleShape3D_7k104"]
 
 [node name="Enemy" type="CharacterBody3D" unique_id=300166411 groups=["Enemies"]]
+script = ExtResource("1_7k104")
+shootRange = 40.0
+shootSound = ExtResource("2_4gyqm")
 
-[node name="Model" type="MeshInstance3D" parent="." unique_id=23952197]
-mesh = SubResource("CapsuleMesh_7xaro")
+[node name="Sketchfab_Scene" parent="." unique_id=2096619626 instance=ExtResource("3_qi2p4")]
+transform = Transform3D(-0.18, 0, -1.57361e-08, 0, 0.18, 0, 1.57361e-08, 0, -0.18, 0, -0.9280425, 0)
 
 [node name="Hitbox" type="CollisionShape3D" parent="." unique_id=1997636890]
 shape = SubResource("CapsuleShape3D_7k104")
@@ -18,3 +23,5 @@ wait_time = 1.5
 [node name="NavAgent" type="NavigationAgent3D" parent="." unique_id=1726091857]
 
 [node name="ShootSound" type="AudioStreamPlayer3D" parent="." unique_id=175899359]
+
+[node name="SightRay" type="RayCast3D" parent="." unique_id=832571596]

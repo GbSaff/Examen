@@ -1,0 +1,46 @@
+[gd_scene format=3 uid="uid://jaao76251ms"]
+
+[ext_resource type="Script" uid="uid://cvnn8hdm3cjhh" path="res://GameOverScript.gd" id="1_gt22q"]
+
+[node name="GameOverScreen" type="CanvasLayer" unique_id=661739538]
+script = ExtResource("1_gt22q")
+
+[node name="Overlay" type="ColorRect" parent="." unique_id=2038145403]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0, 0, 0, 0.70980394)
+
+[node name="Content" type="VBoxContainer" parent="." unique_id=791612576]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -20.0
+offset_top = -31.0
+offset_right = 20.0
+offset_bottom = 31.0
+grow_horizontal = 2
+grow_vertical = 2
+alignment = 1
+
+[node name="GameOverLabel" type="Label" parent="Content" unique_id=1638341917]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.7637303, 0, 0.12229241, 1)
+theme_override_font_sizes/font_size = 64
+text = "GAME OVER"
+horizontal_alignment = 1
+
+[node name="WaveLabel" type="Label" parent="Content" unique_id=1612464118]
+layout_mode = 2
+theme_override_font_sizes/font_size = 32
+text = "You survived to wave X"
+horizontal_alignment = 1
+
+[node name="RestartButton" type="Button" parent="Content" unique_id=1923770406]
+layout_mode = 2
+theme_override_font_sizes/font_size = 25
+text = "Restart"
